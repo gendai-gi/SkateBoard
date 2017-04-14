@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016  Sota Kaneko
+Copyright (C) 2016.,2017  Sota Kaneko
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
@@ -139,7 +139,7 @@ def distance():
 				sleep(1)
 				GPIO.output(trig , 1)
 				if safe_guard = 0:
-					print "Please configure the radar correctly, or boot in safe mode."
+					print "Please configure the sonar correctly, or boot in safe mode."
 					shutdown()
 				sleep(0.00001)
 				GPIO.output(trig , 0)
@@ -154,7 +154,7 @@ def distance():
 				sleep(1)
 				GPIO.output(trig1 , 1)
 				if safe_guard = 0:
-					print "Please configure the radar correctly, or boot in safe mode."
+					print "Please configure the sonar correctly, or boot in safe mode."
 					shutdown()
 				sleep(0.00001)
 				GPIO.output(trig1 , 0)
